@@ -1,0 +1,45 @@
+/* Header.css */
+.logo {
+    height: 2em;
+}
+
+.navbar .nav-link {
+    color: rgb(186, 39, 38);;
+    position: relative; /* Add position:relative to the nav-link */
+    text-decoration: none; /* Remove the default underline */
+    font-size: large;
+    margin: 0 30px;
+}
+
+.navbar .nav-link:after {
+    content: ''; /* Create a pseudo-element for the underline */
+    position: absolute;
+    left: 0;
+    bottom: -3px; /* Adjust this value to control the distance of the underline */
+    width: 100%;
+    height: 1px; /* Adjust this value to control the thickness of the underline */
+    background-color: rgb(186, 39, 38);;
+    transform: scaleX(0); /* Initially, set the scale to zero for animation */
+    transform-origin: 100% 50%; /* Start the transform from the right side */
+    transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.navbar .nav-link:hover:after {
+    transform: scaleX(1); /* On hover, expand the underline to full width */
+    transform-origin: 0% 50%; /* Expand from the left side */
+    transition: transform 0.3s ease; /* Add a smooth transition */
+}
+
+.navbar .container {
+    padding: 10px 0;
+}
+
+.navbar {
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.navs{
+    margin-left: auto; 
+    margin-right: 0;
+    /* background-color: black; */
+}

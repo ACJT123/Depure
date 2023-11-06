@@ -1,0 +1,35 @@
+.aboutus{
+    background-color: rgb(186, 39, 38);
+    padding: 0em 8em;
+    display: flex;
+    margin-top: 5em;
+}
+
+.aboutus > div{
+    color: white;
+    margin: 0em 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.aboutus > div > p{
+    font-size: 1em;
+    text-align: justify;
+}
+
+.aboutus > div > h1{
+    font-weight: 100;
+}
+
+.aboutus1{
+    height: 40em;
+    width: 40em;
+}
+
+.aboutus2{
+    width: 30em;
+    height: 20em;
+    margin-top:-3em;
+    margin-bottom: 2em;
+}

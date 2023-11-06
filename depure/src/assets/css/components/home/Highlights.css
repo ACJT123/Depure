@@ -1,0 +1,48 @@
+.room {
+    height: 20em;
+}
+
+#highlightContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0em 7em;
+    background-color: rgb(186, 39, 38);
+}
+
+.title, .description {
+    color: white;
+}
+
+.description {
+    margin-top: 20px;
+}
+
+.title{
+    font-weight: 100;
+}
+
+.highlightsDescriptionContainer {
+    width: 60%;
+}
+
+.bookNowBtn, .requestConsultationBtn{
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+.bookNowBtn {
+    border: none;
+    background-color: white;
+    color: rgb(186, 39, 38);
+    margin-right: 30px;
+}
+
+.requestConsultationBtn {
+    background-color: rgb(186, 39, 38);
+    color: white;
+    border: 1px solid white;
+
+}
