@@ -1,0 +1,35 @@
+.footer{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    align-items: stretch;
+}
+
+.footer > div{
+    padding: 5em;
+}
+
+.business-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-section{
+
+}
+
+.newsletter-section{
+
+}
+
+.business-section a, h5 {
+    color: black;
+    font-weight: 600;
+}
+
+.nav-section ul{
+    list-style-type: none;
+    margin: 1em 0em;
+    padding: 0;
+}
+
+
